@@ -1,0 +1,32 @@
+{
+  "name": "generator-ac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "templates"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonedream6/generator-ac.git"
+  },
+  "author": "gm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonedream6/generator-ac/issues"
+  },
+  "homepage": "https://github.com/alonedream6/generator-ac#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "lodash": "^4.17.15",
+    "yeoman-generator": "^3.1.1",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {}
+}
