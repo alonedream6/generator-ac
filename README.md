@@ -1,5 +1,5 @@
 # generator-ac
-### 使用 yeoman 快速创建模块
+### 使用 yeoman 快速创建模块
 
 为了提高开发效率和规范性，请使用 generator-ac
 
