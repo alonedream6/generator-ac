@@ -1,5 +1,6 @@
 /**
- * <%= componentName %> Component
+ * <%= componentName %>
+ <%= page ? '* 模板 page' + page + '.js' : '* 组件' %> 
  * @author <%= author %>
  * @date <%= date %>
  * @version 1.0.0

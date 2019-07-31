@@ -10,7 +10,7 @@ module.exports = class extends generators{
     }
     initializing() {
         this.props = {};
-        const msg = chalk.bgBlack.red.bold('\n welcome ac') + chalk.underline('www.baidu.com\n');
+        const msg = chalk.bgBlack.red.bold('\n welcome ac \n') + chalk.underline('https://github.com/hoc2019\n');
         this.log(yosay(msg));
     }
     configuring() {
@@ -76,17 +76,17 @@ module.exports = class extends generators{
         // this.templatePath();// 获取模板的上下文路径  默认 ./templates，使用sourceRoot()方法可改变，但会变为目标项目的路径
         // this.destinationPath();// 获取目标项目的上下文 
         // console.log(this.templatePath(), this.destinationPath());
+        const componentName = upperFirst(camelCase(name));
         const context = {
             author,
-            componentName: name,
+            componentName,
             page,
             date: new Date().toLocaleString(),
           };
         if (name) {
-            const moduleName = upperFirst(camelCase(name));
             this.fs.copyTpl(
                 this.templatePath('module/'),
-                this.destinationPath(`src/packages/template/${moduleName}`), 
+                this.destinationPath(`src/packages/template/${componentName}`), 
                 context
             );
         }
