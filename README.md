@@ -16,3 +16,5 @@ npm install -g generator-ac
 yo ac
 
 大蠢货?
+
+还是大蠢货?
